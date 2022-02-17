@@ -27,7 +27,7 @@ class ApplicationTest {
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON))
             .andExpect(jsonPath("$.Status", is("Success")))
-            .andExpect(jsonPath("$.Message", is("Books REST API v2")));
+            .andExpect(jsonPath("$.Message", is("Books REST API v3")));
 	}
 
 }
